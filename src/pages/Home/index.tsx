@@ -1,9 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
+import HomeChart from "./HomeChart";
 
 export default function HomeScreen() {
   return (
-    <View>
-      <Text>Primeira página</Text>
+    <View style={{ height: 200 }}>
+      <HomeChart />
     </View>
   );
 }
